@@ -15,6 +15,6 @@ title: Home
 </div>
 
   <div class="hero-image">
-    <img src="{{ '/assets/images/hero-illustration.png' | relative_url }}" alt="Illustration of Sagar Jain">
+    <img src="{{ 'hero-illustration.png' | relative_url }}" alt="Illustration of Sagar Jain">
   </div>
 </div>
