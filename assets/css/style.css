@@ -38,12 +38,11 @@ body {
 /* sticky right-edge menu */
 .side-nav {
   position: fixed;
-  top: 50%;
-  right: 1rem;
-  transform: translateY(-50%);
+  top: 1rem;
+  right: 2rem;
   display: flex;
-  flex-direction: column;
   gap: 1rem;
+  background: none;  /* remove any background if you had one */
 }
 
 .side-nav a {
