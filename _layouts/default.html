@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-
-  <!-- Load the Inter font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <!-- Link to our custom stylesheet -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  …your font & CSS links…
 </head>
 <body>
-<aside class="side-nav">
-  <a href="#contact">Contact</a>
-  <a href="/resume.pdf" target="_blank">Resume</a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-</aside>
+  <aside class="side-nav">
+    <a href="#contact">Contact</a>
+    <a href="/resume.pdf" target="_blank">Resume</a>
+    <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+  </aside>
 
-    <main class="site-content">
+  <main class="site-content">
     {{ content }}
   </main>
 </body>
