@@ -1,6 +1,8 @@
 ---
 layout: default
+title: Home
 ---
+
 <div class="hero">
   <div class="hero-text">
     # Hi, I am Sagar Jain
@@ -13,4 +15,3 @@ layout: default
     <img src="{{ '/assets/images/hero-illustration.png' | relative_url }}" alt="Illustration of Sagar Jain">
   </div>
 </div>
-
