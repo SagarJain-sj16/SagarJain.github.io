@@ -1,0 +1,36 @@
+/* Use Inter throughout */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navigation bar */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.nav-logo {
+  font-weight: 600;
+  text-decoration: none;
+  color: #111;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.site-content {
+  padding: 2rem;
+}
