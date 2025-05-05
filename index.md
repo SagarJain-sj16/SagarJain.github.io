@@ -10,6 +10,6 @@ title: Home
     <p>{{ A SHORT PARAGRAPH OR TAGLINE GOES HERE }}</p>
   </div>
   <div class="hero-image">
-    <img src="assets/images/hero-illustration.png" alt="Hero Illustration" />
+    <img src="assets/hero-illustration.png" alt="Hero Illustration" />
   </div>
 </div>
