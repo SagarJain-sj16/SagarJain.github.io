@@ -1,21 +1,17 @@
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-.side-nav {
-  position: fixed;
-  top: 1rem;
-  right: 2rem;
+.hero {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem 2rem;
+  flex-wrap: wrap;
 }
 
-.side-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+.hero-text {
+  flex: 1;
+}
+
+.hero-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
