@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-
-  <!-- Inter font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <!-- your custom CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <!-- sticky top-right nav -->
-  <aside class="side-nav">
-    <a href="#contact">Contact</a>
-    <a href="/resume.pdf" target="_blank">Resume</a>
-    <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-  </aside>
-
-  <!-- this is where each page’s own content goes -->
-  <main class="site-content">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" />
+  </head>
+  <body>
+    <aside class="side-nav">
+      <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
+      <a href="#linkedin">LinkedIn</a>
+    </aside>
     {{ content }}
-  </main>
-</body>
+  </body>
 </html>
